@@ -1,0 +1,109 @@
+.bottom {
+    background-color:rgba(236,236,236,1.00);
+    width: 75vw;
+    height: 80vh;
+}
+
+
+.projects {
+    display: grid;
+    padding: 2vi;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2vi;
+}
+
+
+
+.card {
+    height: 10vi;
+    width: 20vi;
+    border-left: 0.5vi solid var(--main-bg-color);
+    background-color: white;
+    border-radius: 5%;
+    margin-left: 3vw;
+}
+
+.project-heading {
+    font-size: 1.5vi;
+    font-weight: bold;
+}
+
+.card>p {
+    margin-top: 0.2vi;
+    padding: 0.5vi;
+}
+
+.card>div {
+    margin-left: 12vi;
+}
+
+.card>div>i {
+    margin-left: 1vi;
+}
+
+.card>div>i:hover {
+    cursor: pointer;
+}
+
+.bottom>div>h3 {
+    position: relative;
+    top: 1.5vi;
+    left: 1vi;
+}
+
+
+.right-side {
+    margin-left: 4vi;
+    padding: 2vi;
+}
+
+.announcements>div {
+    background-color: white;
+    border-radius: 5%;
+    height: 20vi;
+    width: 15vi;
+}
+
+.announcements>div>div {
+    padding: 1vi;
+}
+
+.announcements>div>div>div {
+    height: 1vi;
+    border-bottom: 1px solid gray;
+}
+
+.announcements>div>div>p {
+    font-size: 0.83vi;
+}
+
+
+.announcments-h {
+    font-size: 1vi;
+    font-weight: bold;
+}
+
+
+.trending {
+    margin-top: 3vh;
+}
+
+.trending>div {
+    background-color: white;
+    width: 15vi;
+    border-radius: 5%;
+}
+
+.trending>div>div {
+    padding: 0.5vi;
+}
+
+.trending>div>div>img {
+    margin-right: 1vi;
+}
+
+
+.trending>div>div>div>p:first-child {
+    font-weight: bold;
+}
+
