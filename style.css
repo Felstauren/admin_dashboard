@@ -1,3 +1,8 @@
+:root {
+    --main-bg-color:  rgb(251, 119, 60);
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +16,7 @@
 }
 
 .blue {
-    background-color: rgb(251, 119, 60);
+    background-color: var(--main-bg-color);
     height:100vh;
     width: 25vw;
 }
@@ -34,7 +39,7 @@
 
 .tabs>ul {
     list-style: none;
-    font-size: 30px;
+    font-size: 1.2vi;
     padding: 2vi;
     font-weight: 600;
 }
@@ -109,8 +114,67 @@
     cursor: pointer;
 }
 
+
+.box-1 > i {
+    font-size: 1.2vi;
+}
+
 .profile_name {
     margin-left: 1.2vw;
     font-size: 1vi;
     font-weight: bold;
+}
+
+
+
+
+.box-2>img {
+    margin-left: 2vi;
+    border-radius: 50%;
+}
+
+
+.box-2>div>p {
+    font-weight: 900;
+    margin-left: 1vi;
+}
+
+
+.box-2>div>p:first-child {
+    font-size: 1vi ;
+}
+
+.box-2>div>p:last-child {
+    font-size: 2vi;
+}
+
+.box-2 {
+    align-items: center;
+}
+
+
+.box-1_5 {
+    align-items: center;
+}
+
+
+.box-3 {
+    margin-left: 15vw;
+}
+
+.box-3>button {
+    margin-left: 1.2vi;
+    background-color: var(--main-bg-color);
+    border: none;
+    font-size: 1vi;
+    width: 4.5vi;
+    height: 2vi;
+    text-align: center;
+    border-radius: 1vi;
+    color: white;
+    font-weight: 700;
+}
+
+.box-3>button:hover {
+    cursor: pointer;
 }
